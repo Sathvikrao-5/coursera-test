@@ -1,0 +1,111 @@
+body{
+	background-color: #62841f;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-default .navbar-brand{
+	font-size: 2em;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-collapse{
+	border: none;
+}
+#nav-list a:active{
+	/*border-top: none;*/
+	border: none;
+	border-width: 0px;
+}
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #e7e7e7;
+}
+.glyphicon{
+	margin-right: 5px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #61122f;
+	background: #ffffff;
+}
+
+.section-background-color{
+	background-color: grey;
+}
+
+#chicken{
+	margin-right: 10px;
+}
+#beef{
+	margin-right: 10px;
+}
+
+
+@media (min-width: 1200px) {
+	.col-lg-4{
+		width: 32.33333%;
+	}
+}
+
+
+@media (min-width: 767px) and (max-width: 1199px) {
+	#chicken{
+		margin-right: 4%;
+	}
+	#beef{
+		margin-right: 0px;
+	}
+
+	#sushi{
+		margin-top: 10px;
+	}
+	.col-md-6{
+		width: 48%;
+	}
+	.internal-link{
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+	 a:hover{
+	 	color: white;
+	}
+}
+
+
+
+@media (max-width: 767px) {
+	h1{
+		margin-left: 25px;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	#company-name{
+		font-size: 2em;
+		color: white;
+	}
+	.navbar-default .navbar-collapse{
+		border: none;
+		background-color: #99C5B5;
+	}
+
+
+	#beef{
+		margin: 10px 0px;
+	}
+	.internal-link{
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+	 a:hover{
+	 	color: white;
+	}
+}
